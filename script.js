@@ -16,6 +16,41 @@ document.addEventListener('DOMContentLoaded', () => {
     const faqItems = document.querySelectorAll('.faq-item'); // FAQ items
     const dots = document.querySelectorAll('.dot');
 
+    document.addEventListener('DOMContentLoaded', () => {
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+            contactForm.addEventListener('submit', async (e) => {
+                e.preventDefault();
+    
+                const formData = new FormData(contactForm);
+                const data = {
+                    name: formData.get('name'),
+                    email: formData.get('email'),
+                    subject: formData.get('subject'),
+                    message: formData.get('message')
+                };
+    
+                try {
+                    const res = await fetch('http://localhost:5000/api/contact', { // Ya aap 'localhost:3000' use kar sakte hain, jo bhi correct ho
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify(data)
+                    });
+    
+                    const result = await res.json();
+                    if (result.success) {
+                        alert('Message sent!');
+                        contactForm.reset();
+                    }
+                } catch (err) {
+                    console.error('Error sending message:', err);
+                    alert('Something went wrong. Please try again.');
+                }
+            });
+        }
+    });
+    
+    
     // --- Helper Function: Get Header Height ---
     const getHeaderHeight = () => {
         return header ? header.offsetHeight : 0;
@@ -228,4 +263,43 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initial checks on page load
     if (header) handleHeaderScroll();
     if (backToTopBtn) handleBackToTopScroll();
+
+    // Handle contact form submission
+    const contactForm = document.querySelector('.contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            // Get form data
+            const formData = {
+                name: contactForm.querySelector('#name').value,
+                email: contactForm.querySelector('#email').value,
+                subject: contactForm.querySelector('#subject').value,
+                message: contactForm.querySelector('#message').value
+            };
+
+            try {
+                const response = 
+                await fetch('http://localhost:5000/api/contact', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(formData)
+                });
+
+                const result = await response.json();
+
+                if (result.success) {
+                    alert('Message sent successfully!');
+                    contactForm.reset();
+                } else {
+                    alert('Error sending message: ' + result.message);
+                }
+            } catch (error) {
+                console.error('Error:', error);
+                alert('Error sending message. Please try again.');
+            }
+        });
+    }
 });
