@@ -1,489 +1,572 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CraftSyne Studio - Web Development Agency</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-</head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header id="main-header">
-        <div class="container header-container">
-            <div class="logo">Craft<span class="logo-accent">Syne</span></div>
-            <nav class="main-nav">
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
-                   
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <button class="hamburger-menu" aria-label="Toggle menu">
-                <i class="fas fa-bars"></i>
-            </button>
-        </div>
-        <div class="mobile-nav-overlay">
-            <button class="close-menu" aria-label="Close menu">&times;</button>
-            <nav class="mobile-nav">
-                <ul>
-                    <li><a href="#hero">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#team">Team</a></li>
-                   
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
+      <div class="container header-container">
+        <div class="logo">Craft<span class="logo-accent">Syne</span></div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="hamburger-menu" aria-label="Toggle menu">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+      <div class="mobile-nav-overlay">
+        <button class="close-menu" aria-label="Close menu">&times;</button>
+        <nav class="mobile-nav">
+          <ul>
+            <li><a href="#hero">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#team">Team</a></li>
+
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <main>
-        <section id="hero">
-            <div class="hero-overlay"></div>
-            <div class="container hero-content">
-                <h1>Creative Web Solutions for Modern Businesses</h1>
-                <p>We craft stunning, high-performance websites that drive results.</p>
-                <div class="cta-buttons">
-                    <a href="#portfolio" class="btn btn-primary">View Our Work</a>
-                    <a href="#contact" class="btn btn-secondary">Get a Quote</a>
-                </div>
+      <section id="hero">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+          <h1>Creative Web Solutions for Modern Businesses</h1>
+          <p>
+            We craft stunning, high-performance websites that drive results.
+          </p>
+          <div class="cta-buttons">
+            <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+            <a href="#contact" class="btn btn-secondary">Get a Quote</a>
+          </div>
+        </div>
+        <div class="scroll-indicator">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </section>
+
+      <section id="about" class="section bg-light-gray">
+        <div class="container about-container">
+          <div class="about-text">
+            <h2>About CraftSyne Studio</h2>
+            <p>
+              We are a passionate team of designers and developers dedicated to
+              creating exceptional digital experiences. We blend creativity with
+              technical expertise to build websites that are not only beautiful
+              but also functional and user-friendly.
+            </p>
+            <div class="feature-highlights">
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+                <span>Innovative Design</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-code"></i></div>
+                <span>Clean Code</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                <span>Performance Focus</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                <span>Performance Focus</span>
+              </div>
+              <div class="feature-item">
+                <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                <span>Performance Focus</span>
+              </div>
             </div>
-            <div class="scroll-indicator">
-                <i class="fas fa-chevron-down"></i>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Our Services</h2>
+            <p>What we offer to help your business grow online.</p>
+            <div class="decorative-line"></div>
+          </div>
+          <div class="services-grid">
+            <div class="service-card card">
+              <div class="icon-area gradient-1">
+                <i class="fas fa-palette"></i>
+              </div>
+              <h3>Web Design</h3>
+              <p>
+                Creating visually stunning and user-centric website designs.
+              </p>
             </div>
-        </section>
-
-        <section id="about" class="section bg-light-gray">
-            <div class="container about-container">
-                
-                <div class="about-text">
-                    <h2>About CraftSyne Studio</h2>
-                    <p>We are a passionate team of designers and developers dedicated to creating exceptional digital
-                        experiences. We blend creativity with technical expertise to build websites that are not only
-                        beautiful but also functional and user-friendly.</p>
-                    <div class="feature-highlights">
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
-                            <span>Innovative Design</span>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fas fa-code"></i></div>
-                            <span>Clean Code</span>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
-                            <span>Performance Focus</span>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
-                            <span>Performance Focus</span>
-                        </div>
-                        <div class="feature-item">
-                            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
-                            <span>Performance Focus</span>
-                        </div>
-                    </div>
-                </div>
+            <div class="service-card card">
+              <div class="icon-area gradient-2">
+                <i class="fas fa-laptop-code"></i>
+              </div>
+              <h3>Web Development</h3>
+              <p>
+                Building robust, scalable, and secure websites from scratch.
+              </p>
             </div>
-        </section>
-
-        <section id="services" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Our Services</h2>
-                    <p>What we offer to help your business grow online.</p>
-                    <div class="decorative-line"></div>
-                </div>
-                <div class="services-grid">
-                    <div class="service-card card">
-                        <div class="icon-area gradient-1">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <h3>Web Design</h3>
-                        <p>Creating visually stunning and user-centric website designs.</p>
-                    </div>
-                    <div class="service-card card">
-                        <div class="icon-area gradient-2">
-                            <i class="fas fa-laptop-code"></i>
-                        </div>
-                        <h3>Web Development</h3>
-                        <p>Building robust, scalable, and secure websites from scratch.</p>
-                    </div>
-                    <div class="service-card card">
-                        <div class="icon-area gradient-3">
-                            <i class="fas fa-shopping-cart"></i>
-                        </div>
-                        <h3>E-commerce Solutions</h3>
-                        <p>Developing powerful online stores to boost your sales.</p>
-                    </div>
-                    
-                </div>
+            <div class="service-card card">
+              <div class="icon-area gradient-3">
+                <i class="fas fa-shopping-cart"></i>
+              </div>
+              <h3>E-commerce Solutions</h3>
+              <p>Developing powerful online stores to boost your sales.</p>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section id="portfolio" class="section bg-light-gray">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Our Portfolio</h2>
-                    <p>Check out some of our recent projects.</p>
-                    <nav class="portfolio-filters">
-                        <button class="filter-btn active" data-filter="all">All</button>
-                        <button class="filter-btn" data-filter="design">Web Design</button>
-                        <button class="filter-btn" data-filter="dev">Development</button>
-                        <button class="filter-btn" data-filter="ecom">E-commerce</button>
-                    </nav>
+      <section id="portfolio" class="section bg-light-gray">
+        <div class="container">
+          <div class="section-header">
+            <h2>Our Portfolio</h2>
+            <p>Check out some of our recent projects.</p>
+            <nav class="portfolio-filters">
+              <button class="filter-btn active" data-filter="all">All</button>
+              <button class="filter-btn" data-filter="design">
+                Web Design
+              </button>
+              <button class="filter-btn" data-filter="dev">Development</button>
+              <button class="filter-btn" data-filter="ecom">E-commerce</button>
+            </nav>
+          </div>
+          <div class="portfolio-grid">
+            <div class="project-card card" data-category="design dev">
+              <div class="project-thumbnail">
+                <img src="Profile.jpeg" alt="Project Title 1" />
+                <div class="image-overlay">
+                  <i class="fas fa-eye"></i>
                 </div>
-                <div class="portfolio-grid">
-                    <div class="project-card card" data-category="design dev">
-                        <div class="project-thumbnail">
-                            <img src="Profile.jpeg" alt="Project Title 1">
-                            <div class="image-overlay">
-                                <i class="fas fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h3>Project Title One</h3>
-                            <span class="category">Web Design / Development</span>
-                            <p>Brief description of the project and its goals.</p>
-                            <div class="tags">
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">React</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card card" data-category="ecom">
-                        <div class="project-thumbnail">
-                            <img src="Profile.jpeg" alt="Project Title 2">
-                            <div class="image-overlay">
-                                <i class="fas fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h3>Project Title Two</h3>
-                            <span class="category">E-commerce</span>
-                            <p>Brief description of the e-commerce project.</p>
-                            <div class="tags">
-                                <span class="tag">Shopify</span>
-                                <span class="tag">Liquid</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="project-card card" data-category="dev">
-                        <div class="project-thumbnail">
-                            <img src="Profile.jpeg" alt="Project Title 3">
-                            <div class="image-overlay">
-                                <i class="fas fa-eye"></i>
-                            </div>
-                        </div>
-                        <div class="card-body">
-                            <h3>Project Title Three</h3>
-                            <span class="category">Development</span>
-                            <p>Description highlighting development challenges.</p>
-                            <div class="tags">
-                                <span class="tag">Vue.js</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">API</span>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="card-body">
+                <h3>Project Title One</h3>
+                <span class="category">Web Design / Development</span>
+                <p>Brief description of the project and its goals.</p>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">React</span>
                 </div>
+              </div>
             </div>
-        </section>
-
-        <section id="team" class="section">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Meet Our Team</h2>
-                    <p>The talented individuals behind WebCraft Studio.</p>
-                    <div class="decorative-line"></div>
+            <div class="project-card card" data-category="ecom">
+              <div class="project-thumbnail">
+                <img src="Profile.jpeg" alt="Project Title 2" />
+                <div class="image-overlay">
+                  <i class="fas fa-eye"></i>
                 </div>
-                <div class="team-grid">
-                    <div class="team-card card">
-                        <div class="team-photo">
-                            <img src="Ajaz Ali.jpg" alt="Ajaz Ali">
-                        </div>
-                        <div class="card-body">
-                            <h3>Ajaz Ali</h3>
-                            <span class="position">Full Stack Developer</span>
-                            <p>Passionate about creating intuitive user experiences.</p>
-                            <div class="tags">
-                                <span class="tag">UI/UX</span>
-                                <span class="tag">Figma</span>
-                            </div>
-                            <div class="social-links">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-card card">
-                        <div class="team-photo">
-                            <img src="Sarang Joshi.jpg" alt="Team Member Name 2">
-                        </div>
-                        <div class="card-body">
-                            <h3>Sarang Joshi</h3>
-                            <span class="position">Lead Developer</span>
-                            <p>Expert in full-stack development and clean code.</p>
-                            <div class="tags">
-                                <span class="tag">React</span>
-                                <span class="tag">Node.js</span>
-                                <span class="tag">AWS</span>
-                            </div>
-                            <div class="social-links">
-                                <a href="https://www.linkedin.com/in/sarang"><i class="fab fa-linkedin"></i></a>
-                                <a href="https://github.com/sarang-j-lab"><i class="fab fa-github"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-card card">
-                        <div class="team-photo">
-                            <img src="Profile.jpeg" alt="Team Member Name 3">
-                        </div>
-                        <div class="card-body">
-                            <h3>Alice Brown</h3>
-                            <span class="position">Project Manager</span>
-                            <p>Ensuring projects run smoothly and meet client goals.</p>
-                            <div class="tags">
-                                <span class="tag">Agile</span>
-                                <span class="tag">Scrum</span>
-                            </div>
-                            <div class="social-links">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="team-card card">
-                        <div class="team-photo">
-                            <img src="Profile.jpeg" alt="Team Member Name 4">
-                        </div>
-                        <div class="card-body">
-                            <h3>Bob Green</h3>
-                            <span class="position">Frontend Developer</span>
-                            <p>Crafting pixel-perfect interfaces with modern tech.</p>
-                            <div class="tags">
-                                <span class="tag">HTML</span>
-                                <span class="tag">CSS</span>
-                                <span class="tag">Vue.js</span>
-                            </div>
-                            <div class="social-links">
-                                <a href="#"><i class="fab fa-linkedin"></i></a>
-                                <a href="#"><i class="fab fa-dribbble"></i></a>
-                            </div>
-                        </div>
-                    </div>
+              </div>
+              <div class="card-body">
+                <h3>Project Title Two</h3>
+                <span class="category">E-commerce</span>
+                <p>Brief description of the e-commerce project.</p>
+                <div class="tags">
+                  <span class="tag">Shopify</span>
+                  <span class="tag">Liquid</span>
                 </div>
+              </div>
             </div>
-        </section>
-
-        <section id="testimonials" class="section bg-light-gray">
-            <div class="container">
-                <div class="section-header">
-                    <h2>What Our Clients Say</h2>
-                    <p>Hear from businesses we've helped succeed.</p>
+            <div class="project-card card" data-category="dev">
+              <div class="project-thumbnail">
+                <img src="Profile.jpeg" alt="Project Title 3" />
+                <div class="image-overlay">
+                  <i class="fas fa-eye"></i>
                 </div>
-                <div class="testimonial-carousel">
-                    <div class="testimonial-slide">
-                        <div class="testimonial-card card">
-                            <span class="quote-mark">&ldquo;</span>
-                            <img src="Profile.jpeg" alt="Client Name 1" class="client-photo">
-                            <p class="quote">
-                                <i>"WebCraft Studio delivered an amazing website that exceeded our expectations. Their
-                                    team was professional, responsive, and truly understood our vision."</i>
-                            </p>
-                            <p class="client-info">
-                                <strong>Client Name One</strong> <br> CEO, Company Inc.
-                            </p>
-                        </div>
-                    </div> 
-                        <div class="testimonial-slide">
-                            <div class="testimonial-card card">
-                                <span class="quote-mark">&ldquo;</span>
-                                <img src="Profile.jpeg" alt="Client Name 2" class="client-photo">
-                                <p class="quote">
-                                    <i>"Working with WebCraft Studio was a great experience. They are experts in their
-                                        field."</i>
-                                </p>
-                                <p class="client-info">
-                                    <strong>Client Name Two</strong> <br> CTO, Tech Corp.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="testimonial-slide">
-                            <div class="testimonial-card card">
-                                <span class="quote-mark">&ldquo;</span>
-                                <img src="Profile.jpeg" alt="Client Name 2" class="client-photo">
-                                <p class="quote">
-                                    <i>"Working with WebCraft Studio was a great experience. They are experts in their
-                                        field."</i>
-                                </p>
-                                <p class="client-info">
-                                    <strong>Client Name Three</strong> <br> CTO, Tech Corp.
-                                </p>
-                            </div>
-                        </div>
-                    <div class="carousel-controls">
-                        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
-                        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
-                    </div>
-                    <div class="carousel-dots">
-                        <span class="dot active"></span>
-                        <span class="dot"></span>
-                        <span class="dot"></span>
-                    </div>
+              </div>
+              <div class="card-body">
+                <h3>Project Title Three</h3>
+                <span class="category">Development</span>
+                <p>Description highlighting development challenges.</p>
+                <div class="tags">
+                  <span class="tag">Vue.js</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">API</span>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-
-        <section id="faq" class="section bg-light-gray">
-            <div class="container">
-                <div class="section-header">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>Answers to common questions about our services.</p>
+      <section id="team" class="section">
+        <div class="container">
+          <div class="section-header">
+            <h2>Meet Our Team</h2>
+            <p>The talented individuals behind WebCraft Studio.</p>
+            <div class="decorative-line"></div>
+          </div>
+          <div class="team-grid">
+            <div class="team-card card">
+              <div class="team-photo">
+                <img src="Ajaz Ali.jpg" alt="Ajaz Ali" />
+              </div>
+              <div class="card-body">
+                <h3>Ajaz Ali</h3>
+                <span class="position">Full Stack Developer</span>
+                <p>Passionate about creating intuitive user experiences.</p>
+                <div class="tags">
+                  <span class="tag">UI/UX</span>
+                  <span class="tag">Figma</span>
                 </div>
-                <div class="faq-accordion">
-                    <div class="faq-item card">
-                        <div class="faq-question">
-                            <span class="question-text">What is your development process?</span>
-                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Our process typically involves discovery, design mockups, development, testing,
-                                deployment, and ongoing support. We tailor it based on project needs.</p>
-                        </div>
-                    </div>
-                    <div class="faq-item card">
-                        <div class="faq-question">
-                            <span class="question-text">How much does a website cost?</span>
-                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>Costs vary greatly depending on complexity, features, and design requirements. We provide
-                                custom quotes after understanding your specific needs. Contact us for an estimate!</p>
-                        </div>
-                    </div>
-                    <div class="faq-item card">
-                        <div class="faq-question">
-                            <span class="question-text">How long does it take to build a website?</span>
-                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
-                        </div>
-                        <div class="faq-answer">
-                            <p>A typical small business website might take 4-8 weeks, while more complex projects or
-                                e-commerce sites can take several months. We'll provide a timeline with your project
-                                proposal.</p>
-                        </div>
-                    </div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-github"></i></a>
                 </div>
+              </div>
             </div>
-        </section>
-
-        <section id="contact" class="section">
-            <div class="container contact-container">
-                <div class="contact-info">
-                    <h2>Get In Touch</h2>
-                    <p>Ready to start your next project? We'd love to hear from you. Reach out using the details below
-                        or fill out the contact form.</p>
-                    <ul>
-                        <li><i class="fas fa-map-marker-alt"></i> 123 WebCraft Lane, Codeville, CA 90210</li>
-                        <li><i class="fas fa-phone"></i> <a href="tel:+15551234567">+1 (555) 123-4567</a></li>
-                        <li><i class="fas fa-envelope"></i> <a
-                                href="mailto:hello@webcraft.studio">hello@webcraft.studio</a></li>
-                    </ul>
-                    <div class="social-media">
-                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
-                        <a href="#" aria-label="Dribbble"><i class="fab fa-dribbble"></i></a>
-                    </div>
+            <div class="team-card card">
+              <div class="team-photo">
+                <img src="Sarang Joshi.jpg" alt="Team Member Name 2" />
+              </div>
+              <div class="card-body">
+                <h3>Sarang Joshi</h3>
+                <span class="position">Lead Developer</span>
+                <p>Expert in full-stack development and clean code.</p>
+                <div class="tags">
+                  <span class="tag">React</span>
+                  <span class="tag">Node.js</span>
+                  <span class="tag">AWS</span>
                 </div>
-                <div class="contact-form-container card">
-                    <form action="#" method="POST" class="contact-form" 
-                    id="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" name="name" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="email" id="email" name="email" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="subject">Subject</label>
-                            <input type="text" id="subject" name="subject">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" name="message" rows="5" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Send Message</button>
-                    </form>
+                <div class="social-links">
+                  <a href="https://www.linkedin.com/in/sarang"
+                    ><i class="fab fa-linkedin"></i
+                  ></a>
+                  <a href="https://github.com/sarang-j-lab"
+                    ><i class="fab fa-github"></i
+                  ></a>
                 </div>
+              </div>
             </div>
+            <div class="team-card card">
+              <div class="team-photo">
+                <img src="Profile.jpeg" alt="Team Member Name 3" />
+              </div>
+              <div class="card-body">
+                <h3>Alice Brown</h3>
+                <span class="position">Project Manager</span>
+                <p>Ensuring projects run smoothly and meet client goals.</p>
+                <div class="tags">
+                  <span class="tag">Agile</span>
+                  <span class="tag">Scrum</span>
+                </div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="team-card card">
+              <div class="team-photo">
+                <img src="Profile.jpeg" alt="Team Member Name 4" />
+              </div>
+              <div class="card-body">
+                <h3>Bob Green</h3>
+                <span class="position">Frontend Developer</span>
+                <p>Crafting pixel-perfect interfaces with modern tech.</p>
+                <div class="tags">
+                  <span class="tag">HTML</span>
+                  <span class="tag">CSS</span>
+                  <span class="tag">Vue.js</span>
+                </div>
+                <div class="social-links">
+                  <a href="#"><i class="fab fa-linkedin"></i></a>
+                  <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-        </section>
+      <section id="testimonials" class="section bg-light-gray">
+        <div class="container">
+          <div class="section-header">
+            <h2>What Our Clients Say</h2>
+            <p>Hear from businesses we've helped succeed.</p>
+          </div>
+          <div class="testimonial-carousel">
+            <div class="testimonial-slide">
+              <div class="testimonial-card card">
+                <span class="quote-mark">&ldquo;</span>
+                <img
+                  src="Profile.jpeg"
+                  alt="Client Name 1"
+                  class="client-photo"
+                />
+                <p class="quote">
+                  <i
+                    >"WebCraft Studio delivered an amazing website that exceeded
+                    our expectations. Their team was professional, responsive,
+                    and truly understood our vision."</i
+                  >
+                </p>
+                <p class="client-info">
+                  <strong>Client Name One</strong> <br />
+                  CEO, Company Inc.
+                </p>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-card card">
+                <span class="quote-mark">&ldquo;</span>
+                <img
+                  src="Profile.jpeg"
+                  alt="Client Name 2"
+                  class="client-photo"
+                />
+                <p class="quote">
+                  <i
+                    >"Working with WebCraft Studio was a great experience. They
+                    are experts in their field."</i
+                  >
+                </p>
+                <p class="client-info">
+                  <strong>Client Name Two</strong> <br />
+                  CTO, Tech Corp.
+                </p>
+              </div>
+            </div>
+            <div class="testimonial-slide">
+              <div class="testimonial-card card">
+                <span class="quote-mark">&ldquo;</span>
+                <img
+                  src="Profile.jpeg"
+                  alt="Client Name 2"
+                  class="client-photo"
+                />
+                <p class="quote">
+                  <i
+                    >"Working with WebCraft Studio was a great experience. They
+                    are experts in their field."</i
+                  >
+                </p>
+                <p class="client-info">
+                  <strong>Client Name Three</strong> <br />
+                  CTO, Tech Corp.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-controls">
+              <button class="prev-btn">
+                <i class="fas fa-chevron-left"></i>
+              </button>
+              <button class="next-btn">
+                <i class="fas fa-chevron-right"></i>
+              </button>
+            </div>
+            <div class="carousel-dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+            </div>
+          </div>
+        </div>
+      </section>
 
+      <section id="faq" class="section bg-light-gray">
+        <div class="container">
+          <div class="section-header">
+            <h2>Frequently Asked Questions</h2>
+            <p>Answers to common questions about our services.</p>
+          </div>
+          <div class="faq-accordion">
+            <div class="faq-item card">
+              <div class="faq-question">
+                <span class="question-text"
+                  >What is your development process?</span
+                >
+                <span class="toggle-icon"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Our process typically involves discovery, design mockups,
+                  development, testing, deployment, and ongoing support. We
+                  tailor it based on project needs.
+                </p>
+              </div>
+            </div>
+            <div class="faq-item card">
+              <div class="faq-question">
+                <span class="question-text">How much does a website cost?</span>
+                <span class="toggle-icon"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  Costs vary greatly depending on complexity, features, and
+                  design requirements. We provide custom quotes after
+                  understanding your specific needs. Contact us for an estimate!
+                </p>
+              </div>
+            </div>
+            <div class="faq-item card">
+              <div class="faq-question">
+                <span class="question-text"
+                  >How long does it take to build a website?</span
+                >
+                <span class="toggle-icon"
+                  ><i class="fas fa-chevron-down"></i
+                ></span>
+              </div>
+              <div class="faq-answer">
+                <p>
+                  A typical small business website might take 4-8 weeks, while
+                  more complex projects or e-commerce sites can take several
+                  months. We'll provide a timeline with your project proposal.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section">
+        <div class="container contact-container">
+          <div class="contact-info">
+            <h2>Get In Touch</h2>
+            <p>
+              Ready to start your next project? We'd love to hear from you.
+              Reach out using the details below or fill out the contact form.
+            </p>
+            <ul>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> 123 WebCraft Lane,
+                Codeville, CA 90210
+              </li>
+              <li>
+                <i class="fas fa-phone"></i>
+                <a href="tel:+15551234567">+1 (555) 123-4567</a>
+              </li>
+              <li>
+                <i class="fas fa-envelope"></i>
+                <a href="mailto:hello@webcraft.studio">hello@webcraft.studio</a>
+              </li>
+            </ul>
+            <div class="social-media">
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+              <a href="#" aria-label="Dribbble"
+                ><i class="fab fa-dribbble"></i
+              ></a>
+            </div>
+          </div>
+          <div class="contact-form-container card">
+            <form
+              action="#"
+              method="POST"
+              class="contact-form"
+              id="contact-form"
+            >
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">
+                Send Message
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
     </main>
     <!-- Footer Section -->
     <footer id="main-footer">
-        <div class="container">
-            <div class="footer-container">
-                <div class="about-section">
-                    <h3>About WebCraft</h3>
-                    <p>We build beautiful, effective websites that help businesses succeed online. Let's craft your
-                        digital presence together.</p>
+      <div class="container">
+        <div class="footer-container">
+          <div class="about-section">
+            <h3>About WebCraft</h3>
+            <p>
+              We build beautiful, effective websites that help businesses
+              succeed online. Let's craft your digital presence together.
+            </p>
 
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Services</a></li>
-                        <li><a href="#">Portfolio</a></li>
-                       
-                        <li><a href="#">Contact</a></li>
-                        <li><a href="#">Privacy Policy</a></li>
-                    </ul>
-                </div>
+            <h3>Quick Links</h3>
+            <ul class="footer-links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#">Portfolio</a></li>
 
-                <div class="contact-section">
-                    <h3>Contact Info</h3>
-                    <ul class="contact-info">
-                        <li><i class="fas fa-map-marker-alt"></i> 123 WebCraft Lane</li>
-                        <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
-                        <li><i class="fas fa-envelope"></i> hello@webcraft.studio</li>
-                    </ul>
+              <li><a href="#">Contact</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
 
-                    <h3>Newsletter</h3>
-                    <p>Stay updated with our latest insights.</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Enter your email">
-                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
-                    </form>
-                </div>
-            </div>
+          <div class="contact-section">
+            <h3>Contact Info</h3>
+            <ul class="contact-info">
+              <li><i class="fas fa-map-marker-alt"></i> 123 WebCraft Lane</li>
+              <li><i class="fas fa-phone-alt"></i> +1 (555) 123-4567</li>
+              <li><i class="fas fa-envelope"></i> hello@webcraft.studio</li>
+            </ul>
 
-            <div class="copyright">
-                &copy; 2025 CraftSyne Studio. All Rights Reserved.
-                <div class="social-icons">
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-github"></i></a>
-                    <a href="#"><i class="fab fa-dribbble"></i></a>
-                </div>
-            </div>
+            <h3>Newsletter</h3>
+            <p>Stay updated with our latest insights.</p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Enter your email" />
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
         </div>
+
+        <div class="copyright">
+          &copy; 2025 CraftSyne Studio. All Rights Reserved.
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+            <a href="#"><i class="fab fa-dribbble"></i></a>
+          </div>
+        </div>
+      </div>
     </footer>
     <a href="#main-header" class="back-to-top" aria-label="Back to top">
-        <i class="fas fa-arrow-up"></i>
+      <i class="fas fa-arrow-up"></i>
     </a>
     <script src="script.js"></script>
-</body>
-
+  </body>
 </html>
