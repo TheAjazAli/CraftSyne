@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CraftSyne Studio - Web Development Agency</title>
+    <link rel="icon" type="image/png" href="favicon.ico" loading="lazy">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- AOS Animate on Scroll CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Main Header - Added 'sticky-header' class for potential CSS sticky implementation -->
+    <header id="main-header" class="sticky-header">
+        <div class="container header-container">
+            <!-- Logo with fade-right animation -->
+            <div class="logo" data-aos="fade-right" data-aos-duration="1200">Craft<span class="logo-accent">Syne</span></div>
+            <!-- Main navigation with fade-left animation -->
+            <nav class="main-nav" data-aos="fade-left" data-aos-duration="1200">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <!-- Hamburger menu button with fade-left animation -->
+            <button class="hamburger-menu" aria-label="Toggle menu" data-aos="fade-left" data-aos-duration="1200" data-aos-delay="200">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile navigation overlay -->
+        <div class="mobile-nav-overlay">
+            <button class="close-menu" aria-label="Close menu">&times;</button>
+            <nav class="mobile-nav">
+                <ul>
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -  -->
+        <section id="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <!-- Hero heading with fade-up animation and increased duration -->
+                <h1 data-aos="fade-up" data-aos-duration="1500"><strong> Creative Web Solutions For Modern Businesses</strong></h1>
+                <!-- Hero paragraph with fade-up animation and delay -->
+                <p data-aos="fade-up" data-aos-delay="300" data-aos-duration="1500">Crafting stunning, tailor-made websites that elevate your online presence.</p>
+                <!-- CTA buttons with fade-up animation and further delay -->
+                <div class="cta-buttons" data-aos="fade-up" data-aos-delay="600" data-aos-duration="1500">
+                    <a href="#portfolio" class="btn btn-primary">View Our Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <!-- Scroll indicator with fade-up animation and delay -->
+            <div class="scroll-indicator" data-aos="fade-up" data-aos-delay="900" data-aos-duration="1500">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section bg-light-gray">
+            <div class="container about-container" data-aos="zoom-in" data-aos-duration="1200">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1200">
+                    <h2><strong>About CraftSyne Studio</strong></h2>
+                    <p>We are a passionate team of designers and developers dedicated to creating exceptional digital
+                        experiences. We blend creativity with technical expertise to build websites that are not only
+                        beautiful but also functional and user-friendly.</p>
+                    <div class="feature-highlights">
+                        <!-- Feature items with staggered fade-up animations -->
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="100" data-aos-duration="1000">
+                            <div class="feature-icon"><i class="fas fa-lightbulb"></i></div>
+                            <span>Innovative Design</span>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="200" data-aos-duration="1000">
+                            <div class="feature-icon"><i class="fas fa-code"></i></div>
+                            <span>Clean Code</span>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="300" data-aos-duration="1000">
+                            <div class="feature-icon"><i class="fas fa-rocket"></i></div>
+                            <span>Performance Focus</span>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="400" data-aos-duration="1000">
+                            <div class="feature-icon"><i class="fas fa-mobile-alt"></i></div>
+                            <span>Responsive Layouts</span>
+                        </div>
+                        <div class="feature-item" data-aos="fade-up" data-aos-delay="500" data-aos-duration="1000">
+                            <div class="feature-icon"><i class="fas fa-search"></i></div>
+                            <span>SEO Friendly</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <!-- Section header with fade-up animation -->
+                <div class="section-header" data-aos="fade-up" data-aos-duration="1200">
+                    <h2><strong>Our Services</strong></h2>
+                    <p>What we offer to help your business thrive online.</p>
+                </div>
+                <div class="services-grid">
+                    <!-- Service cards with zoom-in animations and increased staggered delays -->
+                    <div class="service-card card" data-aos="zoom-in" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="icon-area gradient-1">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Custom Web Development</h3>
+                        <p>Tailor-made websites built from scratch to meet your specific business goals and functionality
+                            needs.</p>
+                    </div>
+
+                    <div class="service-card card" data-aos="zoom-in" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="icon-area gradient-2">
+                            <i class="fas fa-pencil-ruler"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>Designing intuitive, user-friendly interfaces focused on providing seamless and engaging
+                            experiences.</p>
+                    </div>
+
+                    <div class="service-card card" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="icon-area gradient-3">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>SEO & Performance Optimization</h3>
+                        <p>Improving visibility on search engines and enhancing loading speed for maximum site performance.
+                        </p>
+                    </div>
+
+                    <div class="service-card card" data-aos="zoom-in" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="icon-area gradient-4">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3>Website Maintenance & Support</h3>
+                        <p>Ongoing care, updates, and technical support to ensure your website remains smooth and secure.
+                        </p>
+                    </div>
+
+                    <div class="service-card card" data-aos="zoom-in" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="icon-area gradient-5">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile Responsive Design</h3>
+                        <p>Designs that adapt perfectly to any screen size, providing a great experience across all devices.
+                        </p>
+                    </div>
+
+                    <div class="service-card card" data-aos="zoom-in" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="icon-area gradient-6">
+                            <i class="fas fa-plug"></i>
+                        </div>
+                        <h3>Third-Party Integration</h3>
+                        <p>Connecting your website with tools like WhatsApp chat, Google maps, Analytics, Booking tools,
+                            Cloudinary integration and More.</p>
+                    </div>
+
+                    <div class="service-card card" data-aos="zoom-in" data-aos-delay="700" data-aos-duration="1000">
+                        <div class="icon-area gradient-7">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <h3>Domain & Web Hosting</h3>
+                        <p>Reliable domain registration and hosting solutions to get your website online and running
+                            smoothly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section -->
+        <section id="portfolio" class="section bg-light-gray">
+            <div class="container">
+                <!-- Section header with fade-up animation -->
+                <div class="section-header" data-aos="fade-up" data-aos-duration="1200">
+                    <h2><strong>Our Portfolio</strong></h2>
+                    <p>Check out some of our recent projects.</p>
+                    <nav class="portfolio-filters">
+                        <button class="filter-btn active" data-filter="all">All</button>
+                    </nav>
+                </div>
+                <div class="portfolio-grid">
+                    <!-- Project card with flip-up animation and delay -->
+                    <div class="project-card card" data-category="design dev" data-aos="flip-up" data-aos-delay="200" data-aos-duration="1200">
+                        <a href="https://drnavidshaikh.com/" target="_blank" class="project-thumbnail">
+                            <img src="project_prev1.webp" alt="Project Title 1">
+                            <div class="image-overlay">
+                                <i class="fas fa-eye"></i>
+                            </div>
+                        </a>
+                        <div class="card-body">
+                            <h3>Official Clinic Website</h3>
+                            <span class="category">Web Design / Development</span>
+                            <p>We developed a modern and responsive website for dr.navid shaikh, Which includes doctor’s
+                                biography, education and expertise, clinic location with google maps, and contact
+                                section for easy appointment scheduling.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Section -->
+        <section id="team" class="section">
+            <div class="container">
+                <!-- Section header with fade-up animation -->
+                <div class="section-header" data-aos="fade-up" data-aos-duration="1200">
+                    <h2><strong>Meet Our Team</strong></h2>
+                    <p>The talented individuals behind CraftSyne Studio.</p>
+                    <div class="decorative-line"></div>
+                </div>
+                <div class="team-grid">
+                    <!-- Team cards with staggered slide-up animations -->
+                    <div class="team-card card" data-aos="slide-up" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="team-photo">
+                            <img src="Ajaz Ali.webp" loading="lazy" alt="Ajaz Ali">
+                        </div>
+                        <div class="card-body">
+                            <h3>Ajaz Ali</h3>
+                            <span class="position">Project Associate</span>
+                            <p>Ensuring projects run smoothly and meet client goals.</p>
+                            <div class="tags">
+                                <span class="tag">UI/UX</span>
+                                <span class="tag">AWS</span>
+                                <span class="tag">Data Science</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/ajaz-ali-9b4756229"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/TheAjazAli"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card card" data-aos="slide-up" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="team-photo">
+                            <img src="Sarang Joshi.webp" loading="lazy" alt="Team Member Name 2">
+                        </div>
+                        <div class="card-body">
+                            <h3>Sarang Joshi</h3>
+                            <span class="position">Lead Developer</span>
+                            <p>Expert in full-stack development and clean code.</p>
+                            <div class="tags">
+                                <span class="tag">React</span>
+                                <span class="tag">Node.js</span>
+                                <span class="tag">MongoDB</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/sarang"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/sarang-j-lab"><i class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card card" data-aos="slide-up" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="team-photo">
+                            <img src="rehan.webp" loading="lazy" alt="Team Member Name 3">
+                        </div>
+                        <div class="card-body">
+                            <h3>Rehan Khan</h3>
+                            <span class="position">Full Stack Developer</span>
+                            <p>Passionate about creating intuitive user experiences.</p>
+                            <div class="tags">
+                                <span class="tag">MERN</span>
+                                <span class="tag">JavaScript</span>
+                                <span class="tag">Figma</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/rehan-khan-8855u/"><i
+                                        class="fab fa-linkedin"></i></a>
+                                <a href="https://github.com/Rehankhan8855?tab=repositories"><i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="team-card card" data-aos="slide-up" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="team-photo">
+                            <img src="Heet.webp" loading="lazy" alt="Team Member Name 4">
+                        </div>
+                        <div class="card-body">
+                            <h3>Heet Shah</h3>
+                            <span class="position">Security Researcher</span>
+                            <p>Dealing with cybersecurity interfaces with modern tech.</p>
+                            <div class="tags">
+                                <span class="tag">Cyber Security</span>
+                                <span class="tag">Ethical Hacking</span>
+                                <span class="tag">MEAN</span>
+                            </div>
+                            <div class="social-links">
+                                <a href="https://www.linkedin.com/in/heet-n-shah/"><i class="fab fa-linkedin"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section bg-light-gray">
+            <div class="container">
+                <!-- Section header with fade-up animation -->
+                <div class="section-header" data-aos="fade-up" data-aos-duration="1200">
+                    <h2><strong>What Our Clients Say</strong></h2>
+                    <p>Hear from businesses we've helped succeed.</p>
+                </div>
+                <!-- Testimonial carousel with zoom-in animation and delay -->
+                <div class="testimonial-carousel" data-aos="zoom-in" data-aos-delay="300" data-aos-duration="1200">
+                    <div class="testimonial-slide">
+                        <div class="testimonial-card card">
+                            <span class="quote-mark">&ldquo;</span>
+                            <img src="Client_review1.webp" loading="lazy" alt="Client Name 1" class="client-photo">
+                            <p class="quote">
+                                <i>"Craftsyne perfectly brought my clinic's website vision to life. Their team was
+                                    creative, responsive, and highly professional throughout the project."</i>
+                            </p>
+                            <p class="client-info">
+                                <strong>Dr.Navid Shaikh</strong> <br>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-dots">
+                        <span class="dot active"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section bg-light-gray">
+            <div class="container">
+                <!-- Section header with fade-up animation -->
+                <div class="section-header" data-aos="fade-up" data-aos-duration="1200">
+                    <h2><strong>Frequently Asked Questions</strong></h2>
+                    <p>Answers to common questions about our services.</p>
+                </div>
+                <div class="faq-accordion">
+                    <!-- FAQ items with staggered fade-right animations -->
+                    <div class="faq-item card" data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000">
+                        <div class="faq-question">
+                            <span class="question-text">What is your development process?</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Our process typically involves discovery, design mockups, development, testing,
+                                deployment, and ongoing support. We tailor it based on project needs.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item card" data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000">
+                        <div class="faq-question">
+                            <span class="question-text">How much does a website cost?</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Costs vary greatly depending on complexity, features, and design requirements. We provide
+                                custom quotes after understanding your specific needs. Contact us for an estimate!</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item card" data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000">
+                        <div class="faq-question">
+                            <span class="question-text">How long does it take to build a website?</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A typical small business website might take 4–8 weeks, while more complex projects or
+                                custom features may take longer depending on requirements.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item card" data-aos="fade-right" data-aos-delay="400" data-aos-duration="1000">
+                        <div class="faq-question">
+                            <span class="question-text">Do you provide post-launch support?</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Yes, we offer ongoing maintenance, updates, and technical support to keep your website
+                                running smoothly after launch.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item card" data-aos="fade-right" data-aos-delay="500" data-aos-duration="1000">
+                        <div class="faq-question">
+                            <span class="question-text">What industries do you serve?</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>We serve a wide range of industries including healthcare, real estate, education, retail,
+                                personal branding, and more.</p>
+                        </div>
+                    </div>
+
+                    <div class="faq-item card" data-aos="fade-right" data-aos-delay="600" data-aos-duration="1000">
+                        <div class="faq-question">
+                            <span class="question-text">How to reach out to us?</span>
+                            <span class="toggle-icon"><i class="fas fa-chevron-down"></i></span>
+                        </div>
+                        <div class="faq-answer">
+                            <p>You can contact us via email at <strong>team.craftsyne@gmail.com</strong> or
+                                through our phone number.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container contact-container" data-aos="fade-up" data-aos-duration="1200">
+                <div class="contact-info">
+                    <h2><strong>Get In Touch</strong></h2>
+                    <p>Ready to start your next project? We'd love to hear from you. Reach out using the details below
+                        or fill out the contact form.</p>
+                    <ul>
+                        <!-- Contact list items with staggered fade-right animations -->
+                        <li data-aos="fade-right" data-aos-delay="100" data-aos-duration="1000"><i class="fas fa-map-marker-alt"></i> Based In Jalgaon (425001), India | Working Remotely
+                            With Worldwide </li>
+                        <li data-aos="fade-right" data-aos-delay="200" data-aos-duration="1000"><i class="fas fa-phone"></i> <a href="tel:+917757895458">+91(7757895458) / +91(8855885489)
+                            </a></li>
+                        <li data-aos="fade-right" data-aos-delay="300" data-aos-duration="1000"><i class="fas fa-envelope"></i> <a
+                                href="mailto:team.craftsyne@gmail.com">team.craftsyne@gmail.com</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <div class="copyright" data-aos="fade-in" data-aos-duration="1500">
+        &copy; 2025 CraftSyne Studio. All Rights Reserved.
+    </div>
+    <a href="#main-header" class="back-to-top" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+
+    <!-- AOS Animate on Scroll JavaScript -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize AOS with global settings
+        AOS.init({
+            once: true, // Animation will only happen once when scrolling down
+            duration: 1000, // Default duration for all animations
+            easing: 'ease-out-quad', // Default easing function for a smoother feel
+            startEvent:'load' //Wait until Paige is fully loaded
+        });
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
